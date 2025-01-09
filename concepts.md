@@ -1,5 +1,4 @@
-/**
- * Loop Syntax:
+ * #Loop Syntax:
  *   - for Loop: Utilized when the number of iterations is predetermined.
  *     Syntax: for (int i = 0; condition; increment/decrement/operation) { }
  *   - while Loop: Preferable when the number of iterations is unknown, and only the termination condition is known.
@@ -10,7 +9,7 @@
  *
  * Types of Functions:
  *   1. Void Functions:
- *      - Do not return a value.
+ *      - Do not return a value. (They do take parameters)
  *      - Syntax: void functionName() { }
  *
  *   2. Return Functions:
@@ -26,4 +25,4 @@
  *      - Do not accept any arguments.
  *      - Useful for performing a generic action.
  *      - Syntax: returnType functionName() { }
- */
+
