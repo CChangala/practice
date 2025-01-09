@@ -16,5 +16,9 @@ int main(){
     //string also stored every character in terms of index just like array.
     int len = s.size();
 
+    //take two numbers and print its sum
+    int num1 = 3;
+    int num3 = 4;
+
     return 0;
 }
