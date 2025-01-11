@@ -66,7 +66,7 @@ Note: Using cin >> for strings captures only up to the first whitespace. To capt
     - **Deque :** A double ended queue which allows insertion and removal from both ends.
     - **Map :** A interface that represents a collection of key-value pair. (hashMap, TreeMap)
   ### List:
-  #### [ArrayList]():
+  #### [ArrayList](https://github.com/CChangala/practice/blob/main/ArrayList.java):
    
 
 
