@@ -65,6 +65,8 @@ Note: Using cin >> for strings captures only up to the first whitespace. To capt
     - **Queue :** A collection which is first in first out. (Priority Queue, Queue)
     - **Deque :** A double ended queue which allows insertion and removal from both ends.
     - **Map :** A interface that represents a collection of key-value pair. (hashMap, TreeMap)
+  ### List:
+  #### [ArrayList]():
    
 
 
