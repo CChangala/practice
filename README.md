@@ -1,4 +1,4 @@
-# Programming Documentation almost similar in all languages:
+# Practice Documentation:
 
 # Data Types and Input Handling:
 - int: A datatype to store integer values. Example usage: int x = 10;
