@@ -54,7 +54,18 @@ Note: Using cin >> for strings captures only up to the first whitespace. To capt
 # Java Collections
 - A object that represents a group of objects, elements. And, Collection Frameworks help to manage collections ( interfaces and methods). 
 - Before collections there were classes to maintain groups of elements like stacks, heaptable, vectors, etc. But there were few drawbacks and was difficult to handle.
-### Drawbacks
+   ### Drawbacks before collections:
+     - **Inconsistency** : Each class had a different way of handling the collections leading confusion.
+     - They couldn't work together or no generic method(no common interface).
+- Collection framework is built mainly around multiple interfaces.
+  ### Interfaces:
+    - **Collection:** The root interface for all the collections in java.
+    - **List :** A collection that can contain duplicates as well ( LinkedList, ArrayList).
+    - **Set :** A collection that cannot have duplicate elements. ( HashSet, TreeSet).
+    - **Queue :** A collection which is first in first out. (Priority Queue, Queue)
+    - **Deque :** A double ended queue which allows insertion and removal from both ends.
+    - **Map :** A interface that represents a collection of key-value pair. (hashMap, TreeMap)
+   
 
 
 
