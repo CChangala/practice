@@ -1,4 +1,4 @@
-## Comprehensive C++ Programming Documentation
+## Programming Documentation almost similar in all languages:
 
 # Data Types and Input Handling:
 - int: A datatype to store integer values. Example usage: int x = 10;
@@ -37,4 +37,18 @@ Types of Functions:
    - Do not accept any arguments.
    - Useful for performing a generic action.
    - Syntax: returnType functionName() { }
+- In functions it is important to understand pass by value and pass by reference:
+1. Pass by value: The acutal paramter is passed i.e the actual value is passed to a function and it uses a copy of it, it does not point to the memory of the variable. Hence, cannot be changed. The function creates a new instances of the variable while using.
+2. Pass by reference:  When you pass a parameter by reference, the function receives a reference (or a pointer) to the original variable. Changes to this parameter affect the original variable directly since both the parameter and the original variable refer to the same memory location. - array always goes with reference. apart from them we have to use & to let it know we are passing by reference.
+----------------------------------
+# Time Complexity:
+- Time Complexity != Time taken
+- The rate at which time taken increases with respect to the input size. This is when Big O comes in to the picture. 
+- big O, teta, omega : best , avg, worst.
+# Ascii values:
+- Asci values start from 65 - A.
+- We can convert ascii to string using (char)(65 or any ascii value)
+- Suprisingly, we can run a for loop with a char datatype aswell.
+# Java Collection
+
 

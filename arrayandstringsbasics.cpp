@@ -6,7 +6,7 @@ int main(){
     //array elements are stored consq in memory location
     int arr[5];
     cin >> arr[0] >>arr[1] >> arr[2] >> arr[3] >> arr[4];
-    cout << arr[3];
+    cout << arr[3] << endl;
 
     // 2D array - see these later in depth
     int a[4][4];
@@ -18,7 +18,7 @@ int main(){
 
     //take two numbers and print its sum
     int num1 = 3;
-    int num3 = 4;
-
+    int num2 = 4;
+    cout << num1 + num2;
     return 0;
 }
