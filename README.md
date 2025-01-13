@@ -70,6 +70,21 @@ Note: Using cin >> for strings captures only up to the first whitespace. To capt
   - An ArrayList stores elements dynamically unlike an array which is a fixed ds. It's resizable/flexible as elements are added and removed.
   - The internal resizing is nothing but creating a new array(usually 1.5 times the old array) and copying the elements to it.
   - When an arrayList is created its internal capacity(the size of the array) by default is 10. The capacity here refers to the no of elements which can be stored before resizing.
+  - Interger.valueOf(elemet) - wrapper class to convert it into object.
+  - we can also add elements at a paticular index buy using add(index,value) or just add(element)
+  - A method set can replace an element at given index- set(index,value)
+  - We can do arrays.asList(); which returns list but not the parent interface (which is list)
+  - We can again create a list using list.of(elements) but its an unmodified list.
+  #### Time Complexity:
+   - Adding element O(n) resizing worst case.
+   - getting an element O(1)
+   - Removing element is also O(n) again resizing
+   - Iteration O(n)
+  #### Comparotor:
+   - Its an interface which helps us to do custom ordering - null is natural order which is asc.
+   - It has a compare method in it which compares two objects and determines the order.
+
+
   
    
 
