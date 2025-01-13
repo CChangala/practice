@@ -66,7 +66,7 @@ Note: Using cin >> for strings captures only up to the first whitespace. To capt
     - **Deque :** A double ended qsueue which allows insertion and removal from both ends.
     - **Map :** A interface that represents a collection of key-value pair. (hashMap, TreeMap)
   ### List:
-  #### [ArrayList](https://github.com/CChangala/practice/blob/main/ArrayList.javahttps://github.com/CChangala/practice/blob/main/ArrayList.java):
+  #### [ArrayList](ArrayListExample.java):
   - An ArrayList stores elements dynamically unlike an array which is a fixed ds. It's resizable/flexible as elements are added and removed.
   - The internal resizing is nothing but creating a new array(usually 1.5 times the old array) and copying the elements to it.
   - When an arrayList is created its internal capacity(the size of the array) by default is 10. The capacity here refers to the no of elements which can be stored before resizing.
