@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Comparator;
 
 class Student{
     private String name;
@@ -40,6 +41,9 @@ public class ArrayListPracticeE {
                 return 0;
             }
         }); //this doesn't work as the fraction is made zero. So we have to write the logic in code
+
+        //or we can also try this:
+        Comparator<Student> comparator = Comparator.comparing(Student :: getGpa).reversed().thenComparing(Student::getName);
 
         for(Student student:students){
             System.out.println("NAME:"+ student.getName() + " Gpa:"+ student.getGpa());
