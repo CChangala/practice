@@ -83,7 +83,8 @@ Note: Using cin >> for strings captures only up to the first whitespace. To capt
   #### Comparotor:
    - Its an interface which helps us to do custom ordering - null is natural order which is asc.
    - It has a compare method in it which compares two objects and determines the order.
-
+# Math functions:
+- use Math.func() like Math.sqrt(16), Math.log(), Math.pow, Math.sqrt();
 
   
    
