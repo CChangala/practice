@@ -92,6 +92,8 @@ Note: Using cin >> for strings captures only up to the first whitespace. To capt
             if (reversed < Integer.MIN_VALUE / 10 || (reversed == Integer.MIN_VALUE / 10 && digit < -8)) {
                 return 0;
             }
+- Armstrong number is the a number whose sum of cubes of all digits is equal to the same number.
+- We can copy a string n times using collections String result = String.join("", Collections.nCopies(n, str))
 
   
    
