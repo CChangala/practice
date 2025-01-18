@@ -83,7 +83,23 @@ Note: Using cin >> for strings captures only up to the first whitespace. To capt
   #### Comparotor:
    - Its an interface which helps us to do custom ordering - null is natural order which is asc.
    - It has a compare method in it which compares two objects and determines the order.
-
+# Math functions:
+- use Math.func() like Math.sqrt(16), Math.log(), Math.pow, Math.sqrt();
+- Remember, While dealing with any kinds of integer type problems - check for limits of signed and unsigned of integer and make sure to check if the returned it over flowing or underflowing.
+- if (reversed > Integer.MAX_VALUE / 10 || (reversed == Integer.MAX_VALUE / 10 && digit > 7)) {
+                return 0;
+            }
+            if (reversed < Integer.MIN_VALUE / 10 || (reversed == Integer.MIN_VALUE / 10 && digit < -8)) {
+                return 0;
+            }
+- Armstrong number is the a number whose sum of cubes of all digits is equal to the same number.
+- We can copy a string n times using collections String result = String.join("", Collections.nCopies(n, str))
+- Math.pow() returns double so don't forget to typecast while dealing with integers. 
+- We can't reverse a string directly in java hence we have to use a StringBuilder -
+  ```java
+StringBuilder name = new StringBuilder("string");
+String reverse = name.reverse().toString();
+```
 
   
    
