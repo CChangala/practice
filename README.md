@@ -99,6 +99,7 @@ Note: Using cin >> for strings captures only up to the first whitespace. To capt
   ```java
 StringBuilder name = new StringBuilder("string");
 String reverse = name.reverse().toString();
+```
 
   
    
