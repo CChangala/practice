@@ -94,7 +94,12 @@ Note: Using cin >> for strings captures only up to the first whitespace. To capt
             }
 - Armstrong number is the a number whose sum of cubes of all digits is equal to the same number.
 - We can copy a string n times using collections String result = String.join("", Collections.nCopies(n, str))
-- Math.pow() returns double so don't forget to typecast while dealing with integers.
+- Math.pow() returns double so don't forget to typecast while dealing with integers. 
+- We can't reverse a string directly in java hence we have to use a StringBuilder -
+  '''
+  StringBuilder name = new StringBuilder(string);
+  String reverse = name.reverse().toString();
+   '''
 
   
    
