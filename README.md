@@ -96,10 +96,9 @@ Note: Using cin >> for strings captures only up to the first whitespace. To capt
 - We can copy a string n times using collections String result = String.join("", Collections.nCopies(n, str))
 - Math.pow() returns double so don't forget to typecast while dealing with integers. 
 - We can't reverse a string directly in java hence we have to use a StringBuilder -
-  ```java
 StringBuilder name = new StringBuilder("string");
 String reverse = name.reverse().toString();
-```
+
 
   
    
