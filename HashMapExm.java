@@ -2,16 +2,14 @@ import java.util.HashMap;
 import java.util.Arrays;
 
 public class HashMapExm {
-    public static void main(String[] args) {
+
+    public static void main() {
         // Write Your Code Here
-        int[] v = new int[]{12, 17, 16 };
-        Arrays.sort(v);
+        int[] v = new int[]{12,13,14};
         HashMap<Integer,Integer> freq = new HashMap<>();
         for(int num:v){
-            System.out.println(num);
             freq.put(num,freq.getOrDefault(num,0)+1);
         }
-        System.out.println(freq);
         int maxKey = 0;
         int minKey = 0;
         int maxValue = Integer.MIN_VALUE;
@@ -23,15 +21,24 @@ public class HashMapExm {
                 maxKey = key;
             }
 
+            if(freq.get(key) == maxValue){
+                maxKey = Math.min(maxKey, key);
+            }
+
             if(freq.get(key)< minValue){
                 minValue = freq.get(key);
                 minKey = key;
             }
+            
+            if(freq.get(key) == minValue){
+                minKey = Math.min(minKey, key);
+            }
         }
 
         int[] out = new int[2];
-        out[0] = minKey;
-        out[1] = maxKey;
+        out[0] = maxKey;
+        out[1] = minKey;
+        
 
     }
 }
