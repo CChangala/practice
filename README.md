@@ -106,6 +106,7 @@ Problems revisit:
 - [find all four sum numbers](https://www.geeksforgeeks.org/problems/find-all-four-sum-numbers1732/1)
 - [Sliding window and hash](https://www.geeksforgeeks.org/problems/count-distinct-elements-in-every-window/1)
 - [arrays sum divisibility](https://www.geeksforgeeks.org/problems/array-pair-sum-divisibility-problem3257/1)
+- [check this at the end](https://www.geeksforgeeks.org/sde-sheet-a-complete-guide-for-sde-preparation/?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=practice_header)
 
 
   
