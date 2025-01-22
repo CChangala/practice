@@ -98,6 +98,13 @@ Note: Using cin >> for strings captures only up to the first whitespace. To capt
 - We can't reverse a string directly in java hence we have to use a StringBuilder -
 StringBuilder name = new StringBuilder("string");
 String reverse = name.reverse().toString();
+<<<<<<< Updated upstream
+=======
+```
+# Hashing:
+- HashMap in java collections.
+- 
+>>>>>>> Stashed changes
 
 
   
