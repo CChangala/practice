@@ -104,7 +104,8 @@ String reverse = name.reverse().toString();
 # Hashing:
 - HashMap in java collections.
 - 
->>>>>>> Stashed changes
+Problems revisit:
+[](https://www.geeksforgeeks.org/problems/find-all-four-sum-numbers1732/1)
 
 
   
