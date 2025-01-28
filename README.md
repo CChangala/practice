@@ -102,7 +102,30 @@ String reverse = name.reverse().toString();
 
 # Hashing:
 - HashMap in java collections.
-- 
+
+# Arrays:
+## Rotating an array:
+- To rotate and array first reverse the whole array then reverse the first d elements and the rest d.
+
+### Steps for Right Rotation
+
+#### Step 1: Reverse the Entire Array
+Start by reversing the entire array to temporarily position the elements that need to move to the front in their approximately correct positions, but in reverse order.
+
+#### Step 2: Reverse the First `d = 3` Elements
+Then, reverse the first three elements. This step corrects the order of the elements that were moved to the beginning in the first step.
+
+#### Step 3: Reverse the Remaining `n - d` Elements
+Finally, reverse the remaining elements. This corrects the order of the elements that need to stay but follow the elements moved to the front.
+
+### Result
+After performing the above steps, the array originally `[1, 2, 3, 4, 5, 6, 7]` transforms into `[5, 6, 7, 1, 2, 3, 4]` after 3 right rotations.
+
+### Explanation
+This method uses a series of reversals to manipulate the array's elements into their rotated positions efficiently:
+- **Reversing the entire array** sets the stage by misaligning elements into a roughly correct position in a reversed order.
+- **Reversing the first `d` elements** and **the remaining `n - d` elements** then neatly places all elements into their correct positions for the desired rotation effect. This technique ensures the process is space-efficient and completes in linear time.
+
 Problems revisit: 
 - [find all four sum numbers](https://www.geeksforgeeks.org/problems/find-all-four-sum-numbers1732/1)
 - [Sliding window and hash](https://www.geeksforgeeks.org/problems/count-distinct-elements-in-every-window/1)
