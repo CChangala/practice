@@ -132,6 +132,7 @@ This method uses a series of reversals to manipulate the array's elements into t
 - A candidate and element to keep track.
 - traverse the array if count = 0 take elements as a[i] and increment the element.
 - and if element value == a[i] then increment or else decrement.
+- Then verify the occurence by travsing and checking if its >n/2.
   
 Problems revisit: 
 - [find all four sum numbers](https://www.geeksforgeeks.org/problems/find-all-four-sum-numbers1732/1)
