@@ -126,6 +126,13 @@ This method uses a series of reversals to manipulate the array's elements into t
 - **Reversing the entire array** sets the stage by misaligning elements into a roughly correct position in a reversed order.
 - **Reversing the first `d` elements** and **the remaining `n - d` elements** then neatly places all elements into their correct positions for the desired rotation effect. This technique ensures the process is space-efficient and completes in linear time.
 
+# Moores Voting Algorithm:
+- Moores algorithm is used to find the majority element in an array. Majority element is an element which appears more than n/2 times.
+## Flow:
+- A candidate and element to keep track.
+- traverse the array if count = 0 take elements as a[i] and increment the element.
+- and if element value == a[i] then increment or else decrement.
+  
 Problems revisit: 
 - [find all four sum numbers](https://www.geeksforgeeks.org/problems/find-all-four-sum-numbers1732/1)
 - [Sliding window and hash](https://www.geeksforgeeks.org/problems/count-distinct-elements-in-every-window/1)
