@@ -127,7 +127,7 @@ This method uses a series of reversals to manipulate the array's elements into t
 - **Reversing the first `d` elements** and **the remaining `n - d` elements** then neatly places all elements into their correct positions for the desired rotation effect. This technique ensures the process is space-efficient and completes in linear time.
 
 # Moores Voting Algorithm:
-- Moores algorithm is used to find the majority element in an array. Majority element is an element which appears more than n/2 times.
+- Moores algorithm is used to find the majority element in an array. Majority element is an element which appears more than n/2 times. We can use it for other thresholds aswell the algorithm lets you track k-1 elements for n/k threshold.
 ## Flow:
 - A candidate and element to keep track.
 - traverse the array if count = 0 take elements as a[i] and increment the element.
