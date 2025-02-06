@@ -133,7 +133,13 @@ This method uses a series of reversals to manipulate the array's elements into t
 - traverse the array if count = 0 take elements as a[i] and increment the element.
 - and if element value == a[i] then increment or else decrement.
 - Then verify the occurence by travsing and checking if its >n/2.
-  
+# Kadane's Algorithm:
+- Algorithm used to find the subarray which gives largest sum. brute force is n^3 and better is n^2 this algo is optimal with time complexity as n.
+## Flow:
+- Travese the array only once and take sum = sum +a[i]
+- max(sum,max)
+- The intution is to leave the values which result in negative sums i.e if sum = 0 cut the subarray and start new from next making sum = 0;
+- In the end we ignore the cases that takes sum to negative as going forward it will only decrease the sum.
 Problems revisit: 
 - [find all four sum numbers](https://www.geeksforgeeks.org/problems/find-all-four-sum-numbers1732/1)
 - [Sliding window and hash](https://www.geeksforgeeks.org/problems/count-distinct-elements-in-every-window/1)
