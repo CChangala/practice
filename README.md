@@ -146,7 +146,18 @@ Problems revisit:
 - [arrays sum divisibility](https://www.geeksforgeeks.org/problems/array-pair-sum-divisibility-problem3257/1)
 - [check this at the end](https://www.geeksforgeeks.org/sde-sheet-a-complete-guide-for-sde-preparation/?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=practice_header)
 
-
+# SpringBoot:
+- Spring is a java framework which lets you built java application.
+- bootstrap spring applications.
+- Spring(enterprise Appicaltion framework) - dependency injection, aspect oriented, mvc, security, reactive Programming ( just focus on building and let spring handle the other things).
+- Programming and configuration model.
+- Spring gives infrastructure support already can be leveraged.
+- Prob? huge frameWork, multiple steps for setup and config and also multiple build and set up things.
+- maven is the build and dependency management tool.
+- Springboot creates a standalone application - scans the class, starts the tomcat server, creates servlets on it own but it does't exactly do anything until we specify the class with annotations (controller, .
+  ## Controller: ( given this request what certain code should be excuted?) 
+  - A java class with annotations lets spring know what url that its mapping to.
+  - has info about what url access is triggred and what method to run.
   
    
 
