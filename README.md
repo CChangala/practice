@@ -158,9 +158,11 @@ Problems revisit:
   ## Controller: ( given this request what certain code should be excuted?) 
   - A java class with annotations lets spring know what url that its mapping to.
   - has info about what url access is triggred and what method to run.
-  
-   
-
-
-
-
+  - A controller basically maps a uri/ a http request to a simple java class(a functionality).
+- When building a restapi we have to analyse the resources - to build a contract.
+- Can config our application properties in applications.properties.
+### JPA : Java Persistence API:
+- A specification that lets you do orm ( object relational mapping)
+- When we get to work with relation databases we have use something like jdbc or run named query and map the results into our objects.
+- But ORM lets us map our entity classes into database, we just provide some method data and framework handles it for us. JPA is a method to do so.
+- Spring data JPA - 
